@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const { randomBytes } = require("crypto");
-import cors from "cors";
+const cors = require("cors");
 
 const app = express();
 app.use(bodyParser.json());
